@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_shared_author_replies",
+  "info": {
+    "displayName": "Author Reply"
+  },
+  "options": {},
+  "attributes": {
+    "notes": {
+      "type": "richtext"
+    }
+  }
+}

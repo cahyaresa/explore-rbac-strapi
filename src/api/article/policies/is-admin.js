@@ -1,0 +1,12 @@
+// path: ./src/api/book/policies/is-admin.js
+
+module.exports = async (policyContext, config, { strapi }) => {
+    // check if user is admin
+    if (policyContext.state.user.isAdmin) {
+        // Go to controller's action.
+        console.log("ini")
+        return true;
+    }
+    // if not admin block request
+    return false;
+};

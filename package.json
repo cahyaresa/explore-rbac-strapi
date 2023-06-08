@@ -1,0 +1,37 @@
+{
+  "dependencies": {
+    "@strapi/plugin-graphql": "^4.11.0",
+    "@strapi/plugin-i18n": "^4.11.0",
+    "@strapi/plugin-users-permissions": "^4.11.0",
+    "@strapi/strapi": "^4.11.0",
+    "better-sqlite3": "8.4.0",
+    "fs-extra": "^11.1.1",
+    "lodash.set": "^4.3.2",
+    "mime-types": "^2.1.35",
+    "strapi-plugin-config-sync": "^1.1.2",
+    "strapi-plugin-ratings": "^1.1.9"
+  },
+  "name": "explore-digiroom-2",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi",
+    "cs": "config-sync"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "d7f6c203-3be8-4d10-bd35-1ef8e546fc3b",
+    "template": "@strapi/template-blog"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

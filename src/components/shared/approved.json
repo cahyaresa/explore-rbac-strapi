@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_shared_approveds",
+  "info": {
+    "displayName": "approved"
+  },
+  "options": {},
+  "attributes": {
+    "approved": {
+      "type": "boolean"
+    }
+  }
+}

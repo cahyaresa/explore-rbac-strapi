@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_shared_admin_reviews",
+  "info": {
+    "displayName": "admin Review",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "Notes": {
+      "type": "richtext"
+    },
+    "autorReply": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.author-reply"
+    }
+  }
+}
