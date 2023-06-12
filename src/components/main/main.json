@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_main_mains",
+  "info": {
+    "displayName": "main",
+    "icon": "feather"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "richtext"
+    }
+  }
+}
