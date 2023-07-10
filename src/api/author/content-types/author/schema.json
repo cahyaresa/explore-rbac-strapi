@@ -29,12 +29,6 @@
         "audios"
       ]
     },
-    "branch": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::branch.branch",
-      "inversedBy": "author"
-    },
     "user": {
       "type": "relation",
       "relation": "oneToOne",
@@ -50,6 +44,12 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "plugin::users-permissions.user"
+    },
+    "branch": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::branch.branch",
+      "inversedBy": "authors"
     }
   }
 }

@@ -22,22 +22,22 @@
     "location": {
       "type": "string"
     },
-    "author": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::author.author",
-      "mappedBy": "branch"
-    },
-    "reviewer": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::reviewer.reviewer",
-      "mappedBy": "branch"
-    },
     "articles": {
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::article.article",
+      "mappedBy": "branch"
+    },
+    "reviewers": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::reviewer.reviewer",
+      "mappedBy": "branch"
+    },
+    "authors": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::author.author",
       "mappedBy": "branch"
     }
   }
