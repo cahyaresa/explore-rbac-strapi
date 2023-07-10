@@ -107,7 +107,7 @@ export default {
               $in: entries.map((entry) => entry.branch.id)
             }
           }
-
+          //test
             // return user.email.includes(".com")
         }
       }
